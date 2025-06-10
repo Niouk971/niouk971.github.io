@@ -1,3 +1,5 @@
+// retourne un tableau de prix aléatoire entre 1 et 10
+
 function getRandom(articlesCount){
     let array = []
     for(let i = 0; i < articlesCount; i ++){
@@ -5,4 +7,5 @@ function getRandom(articlesCount){
     }
     return array
 }
+
 console.log(getRandom(10))
