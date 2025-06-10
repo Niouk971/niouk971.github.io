@@ -4,9 +4,17 @@
 
 let arrayLetters = ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix"]
 
-console.log(arrayLetters[10])
+console.log(arrayLetters[0])
 
 // soluce 2
+
+function selectNumber(number){
+    return arrayLetters[number]
+}
+
+console.log(selectNumber(9))
+
+// soluce 3
 
 function convertDigitToLetters(digit){
     if(digit === 1){
