@@ -18,7 +18,7 @@ let letters = [ 'A', 'd', 'a', '-', 'S', 'c', 'h', 'o', 'o', 'l']
 let message = "";
 
 for (let i = 0; i < letters.length; i ++) {
-    message = letters.join('')
+    message = letters.join('') //.join > une propriété de array
 }
 
 console.log(message)
