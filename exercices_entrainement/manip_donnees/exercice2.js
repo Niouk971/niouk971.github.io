@@ -26,7 +26,7 @@ const data = [
 	}
 ]
 
-console.log(obj["candidate"]);
+console.log(obj.candidate);
 
 for (let i = 0; i < data.length; i ++) {
     console.log(data[i].candidate);
