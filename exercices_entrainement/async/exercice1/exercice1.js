@@ -14,7 +14,7 @@ async function fetchOffers() {
 
         const showDescription = document.createElement('p');
         offersList.appendChild(showDescription);
-        showDescription.innerHTML = element.description
+        showDescription.innerHTML = element.description;
 
     });
 }
